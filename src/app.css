@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+    font-variant: normal;
+}
+
+.specialSpin {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.blur-load {
+    background-size: cover;
+    background-position: center;
+}
+
+.with-shadow {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+.div1 {
+    margin-top: 190px;
+    filter: drop-shadow(1px 1px 20px rgb(44, 42, 42));
+
+}.div2 {
+    margin-top: 190px;
+}
+.section2 {
+    padding: 100px;
+}
+.aboutme{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-style: italic;
+}
+.filter{
+    filter: drop-shadow(1px 1px 20px #e11d48);
+}
+.underpic{
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+}
+  
+  
+  
+  
+  
+  
+
+  
+  
