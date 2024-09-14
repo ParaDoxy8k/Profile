@@ -1,11 +1,13 @@
 <script>
+// @ts-nocheck
+
     import { disableScrollHandling } from "$app/navigation";
     import { Container } from "postcss";
 </script>
 
 <main>
     <section
-        class="relative flex h-[100vh] shrink-0 flex-col items-center justify-center gap-8 p-4 font-display md:gap-12"
+        class="relative flex h-[full] shrink-0 flex-col items-center justify-center gap-8 p-4 font-display md:gap-12"
     id="intro">
         <video
             class="absolute -z-10 h-full w-full object-cover brightness-50"
@@ -25,14 +27,13 @@
         </h1>
         <div style="display: flex; justify-content: center;">
             <button
+              onclick="window.open('https://github.com/ParaDoxy8k','_blank')"
               class="lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-6 pt-6 group rounded-full bg-gray-600 text-white"
             >
-              <a href="https://github.com/ParaDoxy8k">
                 <div
                   class="absolute top-0 right-full w-full h-full bg-rose-600 group-hover:translate-x-full z-0 duration-500"
                 />
                 <i class="fa-brands fa-github fa-beat-fade"></i>
-              </a>
             </button>
           </div>
         <div class="pt-12">
@@ -46,13 +47,24 @@
         <div class="max-w-3xl m-auto">
         <div class="grid grid-cols-1 gap-3 p-3 lg:grid-cols-3">
             <div class="row-span-3 ">
-                <img src="images/logo.jpg" alt="" class="object-cover rounded-xl filter">
-                <div class="underpic">Edward Elric</div>
+                <img src="images/profile.JPEG" alt="" class="object-cover rounded-full drop-shadow-md">
+                <div class="underpic">ParaDoxy8k</div>
             </div>
             <div class="col-span-2 text-6xl content-center text-center filter">Hello World!!!</div>
-            <div class="row-span-2 col-span-2 indent-8">I'm ParaDoxy8k I'm born in AD 2002 3 DEC.I have some skill coding, fix computer and Network. my favorite
-                character is Edward Elric in anime Fullmetall alchemist. and yes this anime is my favorite anime too.</div>
+            <div class="row-span-2 col-span-2 indent-8">I'm ParaDoxy8k I'm born in AD 2002 3 DEC. I have some skill coding , fix computer and Network. When I have I watch movie and reading sometime , And I usually play game every night. </div>
           </div>
+        </div>
+        <div class="max-w-2xl m-auto gap-5 p-5">
+            <h2 class="text-center text-xl mb-4">My Skill & Tools</h2>
+            <div class="text-center mx-5 ">
+                <i class="fa-solid fa-code mr-6" style="font-size: 52px;"></i>
+                <i class="fa-brands fa-html5 mr-6" style="font-size: 52px;"></i>
+                <i class="fa-brands fa-css3-alt mr-6" style="font-size: 52px;"></i>
+                <i class="fa-brands fa-java mr-6" style="font-size: 52px;"></i>
+                <i class="fa-brands fa-js mr-6" style="font-size: 52px;"></i>
+                <i class="fa-brands fa-python mr-6"style="font-size: 52px;"></i>
+                <i class="fa-brands fa-git-alt "style="font-size: 52px;" ></i>
+            </div>
         </div>
         <div>
         </div>

@@ -18,7 +18,7 @@
             </a>
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
-        <p><b class="pr-2">Email</b> dragontty644@gmail.com</p>
+        <p><b class="pr-2">Email </b> <a href="mailto:dragontty644@gmail.com?subject=สอบถามข้อมูล">dragontty644@gmail.com</a></p>
         <p>
             <b class="pr-2">GitHub</b>
             <a href="https://github.com/ParaDoxy8k" target="_blank" class="text-rose-600"
@@ -43,5 +43,6 @@
                 ></a
             >
         </p>
+
     </div>
 </footer>
