@@ -33,6 +33,5 @@
   <Header {y} {innerHeight}/>
   <slot />
   <Footer />
-  injectSpeedInsights();
 </div>
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
