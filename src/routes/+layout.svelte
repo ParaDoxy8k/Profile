@@ -1,5 +1,6 @@
 <script>
 // @ts-nocheck
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
   import { inject } from '@vercel/analytics'
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
@@ -32,5 +33,6 @@
   <Header {y} {innerHeight}/>
   <slot />
   <Footer />
+  injectSpeedInsights();
 </div>
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
