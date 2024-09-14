@@ -70,22 +70,52 @@
         </div>
         <div class="max-w-2xl m-auto gap-5 p-5">
             <div>
-                <h3 class="text-center text-4xl filter">
+                <h3 class="text-center text-4xl mb-4 filter">
                     My fav girlgroup is NewJeans
                 </h3>
                 <p class="indent-8 text-justify">
-                    My main is Hanni. Hanni was born on October 6, 2004, in Melbourne, Victoria, Australia. Her father and mother are Vietnamese. Her parents and grandparents migrated to Australia some time before her birth. Her younger sister Jasmine was also born in Melbourne in 2007. 
+                    NewJeans is a South Korean girl group formed by ADOR. The group is composed of five members: Minji, Hanni, Danielle, Haerin, and Hyein. They are known for their 'girl next door' image and musical stylings reminiscent of the 1990s and 2000s. 
                 </p>
-                <!-- <iframe style="border-radius:12px" 
-                        src="https://open.spotify.com/embed/playlist/5A9OgH63aIXueIrFQLUkcM?utm_source=generator&theme=0" width="100%" height="152" 
-                        frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="pt-5"></iframe> -->
             </div>
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-3 m-auto place-items-center">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-5/5">
+                    <img class="" src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSQRbDQhUg61t5Jv5b6jpyRbsEsA-mKyYi1cRT-M0KoaA1u_ribhwBsiLRNIuUe-NEhczDPiPC4IUhjbAo" alt="">
+                    <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
+                        <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Hanni</p>
+                    </div>
+                </div>
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-5/5">
+                    <img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/20230905_Minji_%28NewJeans%29.jpg/640px-20230905_Minji_%28NewJeans%29.jpg" alt="">
+                    <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
+                        <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Minji</p>
+                    </div>
+                </div>
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-5/5">
+                    <img class="" src="https://magnumx.me/wp-content/uploads/2022/12/Newjeans-member-age-2-768x1024.jpg" alt=""><div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
+                        <p class="text-2xl content-center text-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Haerin</p>
+                    </div>
+                </div>
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-5/5">
+                    <img class="" src="https://miro.medium.com/v2/resize:fit:800/1*KacCV3GTdHMP465WiQ0xBg.jpeg" alt=""><div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
+                        <p class="text-2xl content-center text-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Hyein</p>
+                    </div>
+                </div>
+                <div class="group mt-5 relative overflow-hidden rounded-2xl  w-5/5">
+                    <img class="" src="https://media.atime.live/editor/content/3aae0465-5cb3-409c-988d-b34ec186e08d.jpeg" alt=""><div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
+                        <p class="text-2xl content-center text-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Danielle</p>
+                    </div>
+                </div>
+          </div>
         </div>
         <div class="max-w-2xl m-auto gap-5 p-5">
             <div>
+                <h3 class="text-center text-4xl mb-4">
+                    My playlist
+                </h3>
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/supernatural-single/1750576829"
-                    class="filter"></iframe>
+                <iframe style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/playlist/5A9OgH63aIXueIrFQLUkcM?utm_source=generator&theme=0" width="100%" height="152" 
+                        frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="pt-5"></iframe>
             </div>
         </div>
         <div class="max-w-2xl m-auto gap-5 ">
@@ -94,19 +124,19 @@
             </h4>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 m-auto place-items-center">
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://www.icegif.com/wp-content/uploads/2023/04/icegif-668.gif" alt="">
                     <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Valorant</p>
                     </div>
                 </div>
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://64.media.tumblr.com/b56537599cfb8981d6d3c8f9b90f9c4a/303ecb25e4a05347-b1/s1280x1920/9f542e63aa7bda4cf80507cba9f7c59b8f71de96.gifv" alt="">
                     <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Genshin Impact</p>
                     </div>
                 </div>
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://www.khaosod.co.th/wpapp/uploads/2024/07/sssre.jpg" alt=""><div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center text-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Teamfight <br>Tactics</p>
                     </div>
@@ -118,19 +148,19 @@
             </h4>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 m-auto place-items-center">
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://i.pinimg.com/originals/91/22/6d/91226d43d7b48c6cab5837cb2c4d23f1.gif" alt="">
                     <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none text-center">Fullmetal alchemist <br> brotherhood</p>
                     </div>
                 </div>
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://64.media.tumblr.com/9d9cc8dc3264e48c68afb7f6b4f3875d/9a104d86befcb9fe-ed/s540x810/5cc598c2a294f6d10004182d1a152d98450affab.gifv" alt="">
                     <div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">kimetsu no yaiba</p>
                     </div>
                 </div>
-                <div class="group mt-5 relative overflow-hidden rounded-2xl">
+                <div class="group mt-5 relative overflow-hidden rounded-2xl w-96">
                     <img class="" src="https://gifdb.com/images/high/dark-anime-sukuna-jujutsu-kaisen-q0s31n15yngza4mf.gif" alt=""><div class="absolute inset-0 hover flex justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-50 text-white ">
                         <p class="text-2xl content-center text-center font-bold transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Jujutsu Kaisen</p>
                     </div>

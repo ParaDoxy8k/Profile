@@ -16,6 +16,10 @@
             <a>
                 <i class="fa-brands fa-github" />
             </a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a>
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
         <p><b class="pr-2">Email </b> <a href="mailto:dragontty644@gmail.com?subject=สอบถามข้อมูล">dragontty644@gmail.com</a></p>
@@ -42,6 +46,15 @@
                     ></sup
                 ></a
             >
+        </p>
+        <p>
+            <b class="pr-2">Linked-in</b>
+            <a href="www.linkedin.com/in/thitiwat-phanprakhon-9b2009329" target="_blank" class="text-rose-600"
+                >click here<sup class=""
+                    ><span class="text-xs scale-75 pl-0.5"
+                        ><i class="fa-brands fa-linkedin"></i></span
+                    ></sup>
+            </a>
         </p>
 
     </div>

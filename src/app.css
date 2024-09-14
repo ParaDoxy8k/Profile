@@ -32,11 +32,6 @@ h3,
         transform: rotate(360deg);
     }
 }
-/* @media (min-width: 480px) {
-    .container{
-        max-width: 480px;
-    }
-} */
 .blur-load {
     background-size: cover;
     background-position: center;
@@ -71,7 +66,7 @@ h3,
 }
 @media screen and (max-width: 480px) {
     .container {
-      width: 117%;
+      width: 116%;
     }
 }
   
