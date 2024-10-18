@@ -107,17 +107,16 @@
                 </div>
           </div>
         </div>
-        <div class="max-w-2xl m-auto gap-5 p-5">
-            <div>
-                <h3 class="text-center text-4xl mb-4">
-                    My playlist
-                </h3>
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <iframe style="border-radius:12px" 
-                        src="https://open.spotify.com/embed/playlist/5A9OgH63aIXueIrFQLUkcM?utm_source=generator&theme=0" width="100%" height="152" 
-                        frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="pt-5"></iframe>
-            </div>
+        <div>
+            <h3 class="text-center text-4xl mb-4">
+                My playlist
+            </h3>
         </div>
+        <div class=" flex justify-center">
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <iframe class="rounded-2xl " width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=ZeW1_Ej_EOlF8w9F&amp;start=1&amp;list=PLrxRx7WmXWaGLQoGIzaRBvl5iZwmM9SR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
         <div class="max-w-2xl m-auto gap-5 ">
             <h4 class="text-center text-6xl sm:text-7xl md:text-8xl mt-6 p-10 filter">
                 My Fav game
