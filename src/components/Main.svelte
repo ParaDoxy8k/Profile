@@ -1,6 +1,6 @@
 <script>
 // @ts-nocheck
-
+    
     import { disableScrollHandling } from "$app/navigation";
     import { Container } from "postcss";
 </script>

@@ -35,7 +35,7 @@
                 ></a
             >
         </p>
-        <p>
+        <!-- <p>
             <b class="pr-2">Instagram</b>
             <a href="https://www.instagram.com/47b____z/" target="_blank" class="text-rose-600"
                 >ParaDoxy8k<sup class=""
@@ -46,7 +46,7 @@
                     ></sup
                 ></a
             >
-        </p>
+        </p> -->
         <p>
             <b class="pr-2">Linked-in</b>
             <a href="www.linkedin.com/in/thitiwat-phanprakhon-9b2009329" target="_blank" class="text-rose-600"
